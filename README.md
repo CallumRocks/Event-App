@@ -1,2 +1,0 @@
-# ReduxSimpleStarter
-Udemy React Course
