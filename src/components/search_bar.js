@@ -10,5 +10,6 @@ class SearchBar extends Component {
     // "event" can be named anything
         return <input onChange={(event) => console.log(event.target.value)} />;
     }
+    //test
 }
 export default SearchBar;
