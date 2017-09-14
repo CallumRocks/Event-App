@@ -17,6 +17,7 @@ class SearchBar extends Component {
     // Syntax for finding methods on a class
     // Render function, every class must have one
     // Must return JSX or it will fail
+    // testy test
     render() {
     // "event" can be named anything
         return <input onChange={(event) => this.setState({ term: event.target.value})} />;
