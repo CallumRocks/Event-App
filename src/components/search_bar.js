@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const SearchBar = () => {
-    return <input />
-};
+// Define a new class and give it all the functionality that
+// the React.Component has.
+class SearchBar extends Component {
+    // Syntax for finding methods on a class
+    // Render function, every class must have one
+    // Must return JSX or it will fail
+    render() {
+        return <input />;
+    }
+}
 
 export default SearchBar;
