@@ -7,12 +7,8 @@ class SearchBar extends Component {
     // Render function, every class must have one
     // Must return JSX or it will fail
     render() {
-        return <input onChange={this.onInputChange} />;
-    }
-
-    onInputChange() {
-
+    // "event" can be named anything
+        return <input onChange={(event) => console.log(event.target.value)} />;
     }
 }
-
 export default SearchBar;
