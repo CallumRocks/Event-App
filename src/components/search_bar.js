@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+const wellStyles = {maxWidth: 400, margin: '0 auto 10px'};
+
 // Define a new class and give it all the functionality that
 // the React.Component has.
 class SearchBar extends Component {
