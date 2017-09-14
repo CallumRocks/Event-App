@@ -7,7 +7,11 @@ class SearchBar extends Component {
     // Render function, every class must have one
     // Must return JSX or it will fail
     render() {
-        return <input />;
+        return <input onChange={this.onInputChange} />;
+    }
+
+    onInputChange() {
+
     }
 }
 
