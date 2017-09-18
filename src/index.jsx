@@ -18,12 +18,15 @@ const App = () => {
 const apiKey = "337da68a2d6b2f2679d08eba30d9eec6";
 const dm = "dm6000";
 const baseUrl = "https://dm1.dmdevplatform.com/api/v2/index.php/";
-axios.get('https://jsonplaceholder.typicode.com/posts', 'headers':{'api-key': apiKey,'dm': dm,'cache-control': 'no-cache',})
+const myHeaders = {headers: {'api-key': apiKey, 'dm': dm, 'cache-control': 'no-cache'}};
+
+axios.get(baseUrl + 'dm_event_groups', myHeaders)
   .then(function (response) {
     console.log(JSON.stringify(response));
+    console.log('DAYUMMMM');
   })
   .catch(function (error) {
-    console.log(error);
+    console.log('BRUH');
   });
 
 // axios({	
