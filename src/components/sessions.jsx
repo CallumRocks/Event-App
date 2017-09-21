@@ -66,8 +66,8 @@ export default class EventList extends React.Component {
         console.log('lol');
         this.setState({ event: data.results });
       });
-    }
-  
+    } 
+  // event is the aray
     render() {
       const events = this.state.event.map((item, i) => {
         console.log(item);

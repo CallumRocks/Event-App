@@ -69,7 +69,7 @@
 
 	var _sessions2 = _interopRequireDefault(_sessions);
 
-	var _event_group = __webpack_require__(453);
+	var _event_group = __webpack_require__(190);
 
 	var _event_group2 = _interopRequireDefault(_event_group);
 
@@ -21334,11 +21334,11 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _jquery = __webpack_require__(452);
+	var _jquery = __webpack_require__(187);
 
 	var _jquery2 = _interopRequireDefault(_jquery);
 
-	var _lodash = __webpack_require__(454);
+	var _lodash = __webpack_require__(188);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
@@ -21426,6 +21426,8 @@
 	        _this2.setState({ event: data.results });
 	      });
 	    }
+	    // event is the aray
+
 	  }, {
 	    key: 'render',
 	    value: function render() {
@@ -21519,272 +21521,7 @@
 	exports.default = EventList;
 
 /***/ }),
-/* 187 */,
-/* 188 */,
-/* 189 */,
-/* 190 */,
-/* 191 */,
-/* 192 */,
-/* 193 */,
-/* 194 */,
-/* 195 */,
-/* 196 */,
-/* 197 */,
-/* 198 */,
-/* 199 */,
-/* 200 */,
-/* 201 */,
-/* 202 */,
-/* 203 */,
-/* 204 */,
-/* 205 */,
-/* 206 */,
-/* 207 */,
-/* 208 */,
-/* 209 */,
-/* 210 */,
-/* 211 */,
-/* 212 */,
-/* 213 */,
-/* 214 */,
-/* 215 */,
-/* 216 */,
-/* 217 */,
-/* 218 */,
-/* 219 */,
-/* 220 */,
-/* 221 */,
-/* 222 */,
-/* 223 */,
-/* 224 */,
-/* 225 */,
-/* 226 */,
-/* 227 */,
-/* 228 */,
-/* 229 */,
-/* 230 */,
-/* 231 */,
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */,
-/* 244 */,
-/* 245 */,
-/* 246 */,
-/* 247 */,
-/* 248 */,
-/* 249 */,
-/* 250 */,
-/* 251 */,
-/* 252 */,
-/* 253 */,
-/* 254 */,
-/* 255 */,
-/* 256 */,
-/* 257 */,
-/* 258 */,
-/* 259 */,
-/* 260 */,
-/* 261 */,
-/* 262 */,
-/* 263 */,
-/* 264 */,
-/* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */,
-/* 277 */,
-/* 278 */,
-/* 279 */,
-/* 280 */,
-/* 281 */,
-/* 282 */,
-/* 283 */,
-/* 284 */,
-/* 285 */,
-/* 286 */,
-/* 287 */,
-/* 288 */,
-/* 289 */,
-/* 290 */,
-/* 291 */,
-/* 292 */,
-/* 293 */,
-/* 294 */,
-/* 295 */,
-/* 296 */,
-/* 297 */,
-/* 298 */,
-/* 299 */,
-/* 300 */,
-/* 301 */,
-/* 302 */,
-/* 303 */,
-/* 304 */,
-/* 305 */,
-/* 306 */,
-/* 307 */,
-/* 308 */,
-/* 309 */,
-/* 310 */,
-/* 311 */,
-/* 312 */,
-/* 313 */,
-/* 314 */,
-/* 315 */,
-/* 316 */,
-/* 317 */,
-/* 318 */,
-/* 319 */,
-/* 320 */,
-/* 321 */,
-/* 322 */,
-/* 323 */,
-/* 324 */,
-/* 325 */,
-/* 326 */,
-/* 327 */,
-/* 328 */,
-/* 329 */,
-/* 330 */,
-/* 331 */,
-/* 332 */,
-/* 333 */,
-/* 334 */,
-/* 335 */,
-/* 336 */,
-/* 337 */,
-/* 338 */,
-/* 339 */,
-/* 340 */,
-/* 341 */,
-/* 342 */,
-/* 343 */,
-/* 344 */,
-/* 345 */,
-/* 346 */,
-/* 347 */,
-/* 348 */,
-/* 349 */,
-/* 350 */,
-/* 351 */,
-/* 352 */,
-/* 353 */,
-/* 354 */,
-/* 355 */,
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */,
-/* 360 */,
-/* 361 */,
-/* 362 */,
-/* 363 */,
-/* 364 */,
-/* 365 */,
-/* 366 */,
-/* 367 */,
-/* 368 */,
-/* 369 */,
-/* 370 */,
-/* 371 */,
-/* 372 */,
-/* 373 */,
-/* 374 */,
-/* 375 */,
-/* 376 */,
-/* 377 */,
-/* 378 */,
-/* 379 */,
-/* 380 */,
-/* 381 */,
-/* 382 */,
-/* 383 */,
-/* 384 */,
-/* 385 */,
-/* 386 */,
-/* 387 */,
-/* 388 */,
-/* 389 */,
-/* 390 */,
-/* 391 */,
-/* 392 */,
-/* 393 */,
-/* 394 */,
-/* 395 */,
-/* 396 */,
-/* 397 */,
-/* 398 */,
-/* 399 */,
-/* 400 */,
-/* 401 */,
-/* 402 */,
-/* 403 */,
-/* 404 */,
-/* 405 */,
-/* 406 */,
-/* 407 */,
-/* 408 */,
-/* 409 */,
-/* 410 */,
-/* 411 */,
-/* 412 */,
-/* 413 */,
-/* 414 */,
-/* 415 */,
-/* 416 */,
-/* 417 */,
-/* 418 */,
-/* 419 */,
-/* 420 */,
-/* 421 */,
-/* 422 */,
-/* 423 */,
-/* 424 */,
-/* 425 */,
-/* 426 */,
-/* 427 */,
-/* 428 */,
-/* 429 */,
-/* 430 */,
-/* 431 */,
-/* 432 */,
-/* 433 */,
-/* 434 */,
-/* 435 */,
-/* 436 */,
-/* 437 */,
-/* 438 */,
-/* 439 */,
-/* 440 */,
-/* 441 */,
-/* 442 */,
-/* 443 */,
-/* 444 */,
-/* 445 */,
-/* 446 */,
-/* 447 */,
-/* 448 */,
-/* 449 */,
-/* 450 */,
-/* 451 */,
-/* 452 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -31604,142 +31341,7 @@
 
 
 /***/ }),
-/* 453 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(2);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactDom = __webpack_require__(158);
-
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-
-	var _jquery = __webpack_require__(452);
-
-	var _jquery2 = _interopRequireDefault(_jquery);
-
-	var _lodash = __webpack_require__(454);
-
-	var _lodash2 = _interopRequireDefault(_lodash);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	// import Button from 'react-bootstrap';
-
-
-	var eventGroupsRequest = {
-	  "async": true,
-	  "crossDomain": true,
-	  "url": "http://localhost:8888/api/v2/index.php/dm_event_groups",
-	  "method": "GET",
-	  "headers": {
-	    "Api-Key": "46ed9d8301df391c49ea0e6231ece710",
-	    "Dm": "demo",
-	    // "auth": "g8kmz",
-	    "cache-control": "no-cache"
-	  }
-	};
-
-	var EventGroup = function (_React$Component) {
-	  _inherits(EventGroup, _React$Component);
-
-	  function EventGroup(props) {
-	    _classCallCheck(this, EventGroup);
-
-	    var _this = _possibleConstructorReturn(this, (EventGroup.__proto__ || Object.getPrototypeOf(EventGroup)).call(this, props));
-
-	    _this.state = { event: [] };
-	    return _this;
-	  }
-
-	  _createClass(EventGroup, [{
-	    key: 'componentDidMount',
-	    value: function componentDidMount() {
-	      this.EventGroup();
-	    }
-	  }, {
-	    key: 'EventGroup',
-	    value: function EventGroup() {
-	      var _this2 = this;
-
-	      return _jquery2.default.getJSON(eventGroupsRequest).then(function (data) {
-	        console.log(data);
-	        console.log('lol');
-	        _this2.setState({ event: data.results });
-	      });
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var events = this.state.event.map(function (item, i) {
-	        return _react2.default.createElement(
-	          'div',
-	          { className: 'text-center', key: item.id },
-	          _react2.default.createElement(
-	            'h1',
-	            null,
-	            item.name
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            null,
-	            'Description'
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            null,
-	            item.description
-	          ),
-	          _react2.default.createElement('br', null),
-	          _react2.default.createElement(
-	            'div',
-	            null,
-	            'Sale Date'
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            null,
-	            item.sales_end_time,
-	            ' - ',
-	            item.sales_start_time
-	          ),
-	          _react2.default.createElement('br', null)
-	        );
-	      });
-
-	      return _react2.default.createElement(
-	        'div',
-	        { id: 'layout-content', className: 'layout-content-wrapper' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'panel-list' },
-	          events
-	        )
-	      );
-	    }
-	  }]);
-
-	  return EventGroup;
-	}(_react2.default.Component);
-
-	exports.default = EventGroup;
-
-/***/ }),
-/* 454 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module, global) {/**
@@ -44094,10 +43696,10 @@
 	  }
 	}.call(this));
 
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(455)(module), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(189)(module), (function() { return this; }())))
 
 /***/ }),
-/* 455 */
+/* 189 */
 /***/ (function(module, exports) {
 
 	module.exports = function(module) {
@@ -44111,6 +43713,141 @@
 		return module;
 	}
 
+
+/***/ }),
+/* 190 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactDom = __webpack_require__(158);
+
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+
+	var _jquery = __webpack_require__(187);
+
+	var _jquery2 = _interopRequireDefault(_jquery);
+
+	var _lodash = __webpack_require__(188);
+
+	var _lodash2 = _interopRequireDefault(_lodash);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	// import Button from 'react-bootstrap';
+
+
+	var eventGroupsRequest = {
+	  "async": true,
+	  "crossDomain": true,
+	  "url": "http://localhost:8888/api/v2/index.php/dm_event_groups",
+	  "method": "GET",
+	  "headers": {
+	    "Api-Key": "46ed9d8301df391c49ea0e6231ece710",
+	    "Dm": "demo",
+	    // "auth": "g8kmz",
+	    "cache-control": "no-cache"
+	  }
+	};
+
+	var EventGroup = function (_React$Component) {
+	  _inherits(EventGroup, _React$Component);
+
+	  function EventGroup(props) {
+	    _classCallCheck(this, EventGroup);
+
+	    var _this = _possibleConstructorReturn(this, (EventGroup.__proto__ || Object.getPrototypeOf(EventGroup)).call(this, props));
+
+	    _this.state = { event: [] };
+	    return _this;
+	  }
+
+	  _createClass(EventGroup, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      this.EventGroup();
+	    }
+	  }, {
+	    key: 'EventGroup',
+	    value: function EventGroup() {
+	      var _this2 = this;
+
+	      return _jquery2.default.getJSON(eventGroupsRequest).then(function (data) {
+	        console.log(data);
+	        console.log('lol');
+	        _this2.setState({ event: data.results });
+	      });
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var events = this.state.event.map(function (item, i) {
+	        return _react2.default.createElement(
+	          'div',
+	          { className: 'text-center', key: item.id },
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            item.name
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            'Description'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            item.description
+	          ),
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            'Sale Date'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            item.sales_end_time,
+	            ' - ',
+	            item.sales_start_time
+	          ),
+	          _react2.default.createElement('br', null)
+	        );
+	      });
+
+	      return _react2.default.createElement(
+	        'div',
+	        { id: 'layout-content', className: 'layout-content-wrapper' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'panel-list' },
+	          events
+	        )
+	      );
+	    }
+	  }]);
+
+	  return EventGroup;
+	}(_react2.default.Component);
+
+	exports.default = EventGroup;
 
 /***/ })
 /******/ ]);
