@@ -75,10 +75,6 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	// const API_KEY = 'AIzaSyAMgGKIuzHAxehv0qXBnc1bb0ODM6qHsJg';
-
-	// Create a new component. This component should produce
-	// some HTML
 	var App = function App() {
 	    return _react2.default.createElement(
 	        'div',
@@ -101,54 +97,6 @@
 	    );
 	};
 
-	// var apiKey = "337da68a2d6b2f2679d08eba30d9eec6";
-	// var dm = "dm6000";
-	// var baseUrl = "https://dm1.dmdevplatform.com/api/v2/index.php/";
-	// var myHeaders = {headers: {'api-key': '337da68a2d6b2f2679d08eba30d9eec6', 'dm': 'dm6000'}};
-
-	// axios.get('https://dm1.dmdevplatform.com/api/v2/index.php/dm_event_groups', {withCredentials:true}).then(function (response) {
-	//     console.log(JSON.stringify(response));
-	//     console.log('DAYUMMMM');
-	//   })
-	//   .catch(function (error) {
-	//     console.log('BRUH'); 
-	// });
-
-
-	// axios({
-	//   method:'get',
-	//   url:'https://dm1.dmdevplatform.com/api/v2/index.php/dm_event_groups',
-	//   'headers': {
-	//       'api-key': '337da68a2d6b2f2679d08eba30d9eec6', 
-	//       'dm': 'dm6000'
-	//   }
-	// })
-	//   .then(function(response) {
-	//     console.log(JSON.stringify(response));
-	// });
-
-	//   axios('https://dm1.dmdevplatform.com/api/v2/index.php/dm_event_groups', auth: {
-	//     user: 'dm6000',
-	//     password: '337da68a2d6b2f2679d08eba30d9eec6'
-	//   }).then(function (response) {
-	//     console.log(JSON.stringify(response));
-	//     console.log('DAYUMMMM');
-	//   })
-	//   .catch(function (error) {
-	//     console.log('BRUH');
-	//   });
-
-	// axios({	
-	//     method: 'get',
-	//     url: "https://jsonplaceholder.typicode.com/posts", 
-	//     auth:
-	//         {
-	//             username: 'dm6000',
-	//             password: '337da68a2d6b2f2679d08eba30d9eec6'
-	//         }
-	// }).then(function(response){console.log(JSON.stringify(response))})
-	// Take this compenent's generated HTML and put it
-	// on the page (in the DOM)
 	_reactDom2.default.render(_react2.default.createElement(App, null), document.querySelector('.container'));
 
 /***/ }),
@@ -21349,8 +21297,6 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	// import Button from 'react-bootstrap';
-
 
 	var apiKey = "46ed9d8301df391c49ea0e6231ece710";
 	var dm = "demo";
@@ -21364,12 +21310,6 @@
 	  "headers": {
 	    "dm": "demo",
 	    "auth": "g8kmz",
-	    // "platform": "test",
-	    // "u_id": "test",
-	    // "agent": "test",
-	    // "Cache-Control": "no-cache",
-	    // "Postman-Token": "015fc6ab-49a7-5fc8-03a4-b6b6c1860043",
-	    // 'Content-Type':'application/x-www-form-urlencoded'
 	    "cache-control": "no-cache"
 	  }
 	};
@@ -21381,7 +21321,6 @@
 	  "headers": {
 	    "Api-Key": "46ed9d8301df391c49ea0e6231ece710",
 	    "Dm": "demo",
-	    // "auth": "g8kmz",
 	    "cache-control": "no-cache"
 	  }
 	};
@@ -21477,46 +21416,6 @@
 
 	  return EventList;
 	}(_react2.default.Component);
-
-	// ReactDOM.render(<buttonsInstance />, document.querySelector('.buttonsInstance'));
-	// export default SearchBar;
-
-
-	// const wellStyles = {maxWidth: 400, margin: '0 auto 10px', marginTop:50};
-	// const buttonsInstance = (
-	//   <div className="well" style={wellStyles}>
-	//     <Button bsStyle="primary" bsSize="large" block>Block level button</Button>
-	//     <Button bsSize="large" block>Block level button</Button>
-	//   </div>
-	// );
-	// Define a new class and give it all the functionality that
-	// the React.Component has.
-
-	// class SearchBar extends Component {
-	//     // Each class has a State object
-	//     // State is plain javascript object that is used to record and react to user events events
-	//     // Anytime it changes it immedietely re-renders and all of its children
-	//     // You must initialise state to use it.
-	//     constructor(props) {
-	//         // "super" class the parent method of the parent class e.g. Component.
-	//         // if not called in this example an error will be flagged
-	//         super(props);
-
-	//         this.state = { term: '' };
-	//     }
-	//     // Syntax for finding methods on a class
-	//     // Render function, every class must have one
-	//     // Must return JSX or it will fail
-	//     // testy test
-	//     render() {
-	//     // "event" can be named anything
-	//       return  <div className="well" style={wellStyles}>
-	//                 <Button bsStyle="primary" bsSize="large" block>Testing 1</Button>
-	//                 <Button bsSize="large" block>Testing 2</Button>
-	//               </div>
-	//     }
-	// // }
-
 
 	exports.default = EventList;
 
@@ -43749,8 +43648,6 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	// import Button from 'react-bootstrap';
-
 
 	var eventGroupsRequest = {
 	  "async": true,
@@ -43760,7 +43657,6 @@
 	  "headers": {
 	    "Api-Key": "46ed9d8301df391c49ea0e6231ece710",
 	    "Dm": "demo",
-	    // "auth": "g8kmz",
 	    "cache-control": "no-cache"
 	  }
 	};

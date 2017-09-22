@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-// import Button from 'react-bootstrap';
 import $ from "jquery";
 import lodash from "lodash";
 
@@ -12,7 +11,6 @@ var eventGroupsRequest = {
   "headers": {
     "Api-Key": "46ed9d8301df391c49ea0e6231ece710",
     "Dm": "demo",
-    // "auth": "g8kmz",
     "cache-control": "no-cache"
   }
 }
