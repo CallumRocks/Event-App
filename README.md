@@ -1,3 +1,1 @@
 Event App
-
-Coming soon...
